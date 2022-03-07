@@ -13,7 +13,34 @@
     }    
     header .change-background {
         display: none;
-    }  
+    }
+    
+    
+    /*   Start Services   */
+    
+    .services .srv-content {
+    grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .services .srv-box {
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 0px;
+    }
+    
+    .services .srv-box .srv-text {
+    margin-left: 0px;
+    }
+    
+    .services .srv-box .srv-text h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    }
+    
+    /*   End Services   */
+    
+    
     .design .image img {
         display: none;
     }
